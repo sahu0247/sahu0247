@@ -102,5 +102,5 @@ I am a software engineer focused on bridging the gap between interactive web app
 * 🐙 **GitHub**: [github.com/sahu0247](https://github.com/sahu0247)
 
 <div align="center">
-  <sub>Made with ❤️ using Markdown & SVG Stats widgets</sub>
+  <sub></sub>
 </div>
