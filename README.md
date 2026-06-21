@@ -98,7 +98,7 @@ I am a software engineer focused on bridging the gap between interactive web app
 ### 🤝 Connect with Me
 
 * 📧 **Email**: [sahu02xyz@gmail.com](mailto:sahu02xyz@gmail.com)
-* 💼 **LinkedIn**: [linkedin.com/in/sahu0247](https://www.linkedin.com/in/sahu0247/) *(update with your personal handle if different)*
+* 💼 **LinkedIn**: [linkedin.com/in/subham-sahu-430814340](https://www.linkedin.com/in/subham-sahu-430814340)
 * 🐙 **GitHub**: [github.com/sahu0247](https://github.com/sahu0247)
 
 <div align="center">
