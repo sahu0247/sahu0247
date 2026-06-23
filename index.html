@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subham Sahu | Full-Stack, AI & Robotics Engineer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Subham Sahu showcasing client-side simulations, computer-vision safety tools, embedded robotics, and intelligent agentic workflows.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body class="dark-theme">
+
+  <!-- Background Decorative Blurs -->
+  <div class="bg-blur blur-cyan"></div>
+  <div class="bg-blur blur-purple"></div>
+  <div class="bg-blur blur-green"></div>
+
+  <!-- Navigation Bar -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">&lt;</span>sahu0247<span class="logo-accent"> /&gt;</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="content-wrapper">
+
+    <!-- Hero Section -->
+    <section id="about" class="section hero-section">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span> Available for Opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text text-glow">Subham Sahu</span>
+        </h1>
+        <p class="hero-subtitle">Full-Stack Developer, AI Enthusiast & Robotics Engineer</p>
+        <p class="hero-description">
+          Building high-fidelity client-side simulations, real-time computer vision driving aids, autonomous agent environments, and software-defined radio warning systems.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-editor-mock">
+          <div class="editor-header">
+            <span class="editor-dot red"></span>
+            <span class="editor-dot yellow"></span>
+            <span class="editor-dot green"></span>
+            <span class="editor-title">developer.json</span>
+          </div>
+          <pre class="code-block"><code>{
+  <span class="key">"name"</span>: <span class="val">"Subham Sahu"</span>,
+  <span class="key">"focus"</span>: [
+    <span class="val">"Computer Vision"</span>,
+    <span class="val">"Embedded Robotics"</span>,
+    <span class="val">"Agentic Workflows"</span>
+  ],
+  <span class="key">"philosophy"</span>: <span class="val">"Visually stunning &
+               robust under the hood."</span>
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Dashboard Section -->
+    <section id="skills" class="section skills-section">
+      <div class="section-header">
+        <h2 class="section-title">Technical Toolbox</h2>
+        <p class="section-desc">Click any technology badge below to highlight projects built using that technology.</p>
+      </div>
+      
+      <div class="skills-dashboard">
+        <!-- Categories -->
+        <div class="skills-category-card">
+          <h3>Frontend Core</h3>
+          <div class="skills-badges">
+            <span class="badge" data-skill="react">React</span>
+            <span class="badge" data-skill="typescript">TypeScript</span>
+            <span class="badge" data-skill="vite">Vite</span>
+            <span class="badge" data-skill="tailwind">Tailwind CSS</span>
+            <span class="badge" data-skill="html5">HTML5</span>
+            <span class="badge" data-skill="css3">CSS3</span>
+            <span class="badge" data-skill="js">JavaScript</span>
+            <span class="badge" data-skill="framer">Framer Motion</span>
+          </div>
+        </div>
+
+        <div class="skills-category-card">
+          <h3>Backend & DB</h3>
+          <div class="skills-badges">
+            <span class="badge" data-skill="python">Python</span>
+            <span class="badge" data-skill="fastapi">FastAPI</span>
+            <span class="badge" data-skill="nodejs">Node.js</span>
+            <span class="badge" data-skill="firebase">Firebase</span>
+            <span class="badge" data-skill="sqlite">SQLite3</span>
+          </div>
+        </div>
+
+        <div class="skills-category-card">
+          <h3>AI & ML</h3>
+          <div class="skills-badges">
+            <span class="badge" data-skill="tensorflow">TensorFlow.js</span>
+            <span class="badge" data-skill="mediapipe">MediaPipe</span>
+            <span class="badge" data-skill="sklearn">Scikit-Learn</span>
+            <span class="badge" data-skill="numpy">NumPy</span>
+            <span class="badge" data-skill="scipy">SciPy</span>
+            <span class="badge" data-skill="pandas">Pandas</span>
+          </div>
+        </div>
+
+        <div class="skills-category-card">
+          <h3>Hardware & Robotics</h3>
+          <div class="skills-badges">
+            <span class="badge" data-skill="raspberrypi">Raspberry Pi</span>
+            <span class="badge" data-skill="arduino">Arduino</span>
+            <span class="badge" data-skill="ros">ROS</span>
+            <span class="badge" data-skill="esp32">ESP32</span>
+            <span class="badge" data-skill="sdr">SDR Radio</span>
+            <span class="badge" data-skill="cplusplus">C/C++</span>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-clear-tip" id="clear-filter-tip">
+        <span>Active Skill Filter. Click the active skill again or <button id="reset-skills-btn">Reset Filters</button> to clear.</span>
+      </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section id="projects" class="section projects-section">
+      <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">A showcase of advanced software and engineering deployments, categorised by domain.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+        <button class="filter-btn" data-filter="aiml">AI & ML</button>
+        <button class="filter-btn" data-filter="robotics">Robotics & SDR</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+        
+        <!-- SafeDrive AI -->
+        <article class="project-card" data-categories="aiml fullstack" data-skills="react typescript tailwind mediapipe tensorflow">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">AI & ROAD SAFETY</span>
+              <h3 class="project-name">SafeDrive AI</h3>
+            </div>
+            <p class="project-tagline">Tesla-inspired AI driver safety assistance system for Indian roads.</p>
+            <div class="project-bullets">
+              <span>Evaluates Eye Aspect Ratio (EAR) locally for real-time fatigue alarms.</span>
+              <span>Offloads GPS logs to background Web Workers writing to IndexedDB.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">MediaPipe</span>
+              <span class="tech-tag">Web Workers</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="safedrive">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- HydroSphere -->
+        <article class="project-card" data-categories="fullstack" data-skills="react tailwind vite html5 css3 js">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">SIMULATION</span>
+              <h3 class="project-name">HydroSphere</h3>
+            </div>
+            <p class="project-tagline">Dynamic 2D canvas simulation modeling river basin pollution cycles.</p>
+            <div class="project-bullets">
+              <span>Renders chemical plumes, water waves, and ecological feedback systems.</span>
+              <span>Web Audio API generates environmental soundscapes dynamically.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">React 19</span>
+              <span class="tech-tag">Canvas 2D</span>
+              <span class="tech-tag">Web Audio API</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="hydrosphere">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- AetherShield AI -->
+        <article class="project-card" data-categories="robotics aiml" data-skills="python fastapi numpy scipy sdr js html5 css3">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">AI-NATIVE SDR & DSP</span>
+              <h3 class="project-name">AetherShield AI</h3>
+            </div>
+            <p class="project-tagline">AI-Native electronic warfare monitoring and RF spectrum intelligence platform.</p>
+            <div class="project-bullets">
+              <span>Live Canvas visualizer renders power spectral density (PSD) lines and waterfall spectrogram heatmaps.</span>
+              <span>Web Audio API synthesizes active signals (AM/FM, Morse code, Jammer sweeps) and runs DSP filters.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">SDR</span>
+              <span class="tech-tag">Web Audio API</span>
+              <span class="tech-tag">NumPy</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="radiothon">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- InvoiceGuard AI -->
+        <article class="project-card" data-categories="aiml" data-skills="python sqlite pandas streamlit">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">INTELLIGENT AGENTS</span>
+              <h3 class="project-name">InvoiceGuard AI</h3>
+            </div>
+            <p class="project-tagline">Accounts Payable autonomous auditing and validation agent.</p>
+            <div class="project-bullets">
+              <span>Built gym-style environment with multi-criteria rewards for fraud scans.</span>
+              <span>Synthetic pipeline synthesizes clean & fraud documents for F1 testing.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">Python Agent</span>
+              <span class="tech-tag">OpenEnv</span>
+              <span class="tech-tag">Streamlit</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="invoiceguard">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- PhishAlert+ -->
+        <article class="project-card" data-categories="aiml fullstack" data-skills="python fastapi sklearn js html5 css3">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">CYBERSECURITY</span>
+              <h3 class="project-name">PhishAlert+</h3>
+            </div>
+            <p class="project-tagline">Chrome Manifest V3 threat extension scanning active page elements.</p>
+            <div class="project-bullets">
+              <span>FastAPI backend serves XGBoost link/domain classification scores.</span>
+              <span>Validates SPF, DKIM, and DMARC headers for domain spoofing protection.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">Chrome MV3</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">XGBoost</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="phishalert">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- CampusConnect V2 -->
+        <article class="project-card" data-categories="fullstack" data-skills="react tailwind vite firebase">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">COLLABORATION HUB</span>
+              <h3 class="project-name">CampusConnect V2</h3>
+            </div>
+            <p class="project-tagline">Student matching and study schedule collaboration gateway.</p>
+            <div class="project-bullets">
+              <span>Custom bidirectional matching computes complementary student portfolios.</span>
+              <span>Integrates Firestore transactions for real-time study hub bookings.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Firestore</span>
+              <span class="tech-tag">Firebase Auth</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="campusconnect">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- Industrial AI Knowledge Copilot -->
+        <article class="project-card" data-categories="fullstack aiml" data-skills="react typescript tailwind python fastapi sqlite neo4j chromadb sklearn numpy pandas">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">ENTERPRISE BRAIN</span>
+              <h3 class="project-name">Industrial AI Copilot</h3>
+            </div>
+            <p class="project-tagline">Enterprise-ready digital brain integrating manuals, sensor streams, and multi-agent AI.</p>
+            <div class="project-bullets">
+              <span>Unified topology maps machinery components, failures, and regulatory compliance onto Neo4j graphs.</span>
+              <span>Multi-agent diagnostics predict maintenance schedules (Random Forest) and generate RCA checklists.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">ChromaDB</span>
+              <span class="tech-tag">Neo4j</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="industrialcopilot">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+        <!-- Smart Cave Safety Rover -->
+        <article class="project-card" data-categories="robotics aiml" data-skills="python esp32 raspberrypi cplusplus mqtt websocket sklearn xgboost">
+          <div class="card-glow-bg"></div>
+          <div class="project-card-content">
+            <div class="project-header">
+              <span class="project-category">ROBOTICS & IOT SAFETY</span>
+              <h3 class="project-name">Smart Cave Safety Rover</h3>
+            </div>
+            <p class="project-tagline">AI-powered autonomous safety and rescue rover for hazardous environments.</p>
+            <div class="project-bullets">
+              <span>YOLOv8 and ByteTrack model pipeline runs on-device tracking workers, obstacles, and navigation routes.</span>
+              <span>Wearable IoT wristbands stream heart rate, SpO2, and fall-detection data over ESP32 gateways.</span>
+            </div>
+            <div class="project-tech-summary">
+              <span class="tech-tag">YOLOv8</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">ESP32</span>
+              <span class="tech-tag">MQTT</span>
+            </div>
+            <button class="btn btn-text open-modal-btn" data-project="saferover">Deep Dive &rarr;</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section class="section timeline-section">
+      <div class="section-header">
+        <h2 class="section-title">Development Journey</h2>
+        <p class="section-desc">Key architectural milestones across simulations, security, and hardware.</p>
+      </div>
+      <div class="timeline">
+        <!-- Auroral Labs Experience -->
+        <div class="timeline-item">
+          <div class="timeline-dot dot-work"></div>
+          <div class="timeline-date">Work Experience</div>
+          <div class="timeline-content">
+            <h3>IoT Developer & PCB Designer</h3>
+            <h4 class="timeline-company">
+              <a href="https://www.linkedin.com/company/auroral-labs/" target="_blank" rel="noopener">Auroral Labs 🔗</a>
+            </h4>
+            <p>Contributed to the design and development of embedded hardware solutions and custom IoT device architectures:</p>
+            <ul>
+              <li><strong>Embedded Systems & PCB Layouts</strong>: Designed, prototyped, and optimized custom printed circuit board (PCB) layouts and schema configurations for hardware-based solutions.</li>
+              <li><strong>IoT Integration & Interfacing</strong>: Programmed microcontrollers, integrated sensory telemetry, and engineered real-time data pipelines to optimize device responsiveness and operational reliability.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Active Focus</div>
+          <div class="timeline-content">
+            <h3>Autonomous Agents & Real-Time Dashboards</h3>
+            <p>Refining reinforcement learning environmental paradigms (InvoiceGuard AI) and local browser performance filters for low-latency DMS triggers (SafeDrive AI).</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Mid 2025</div>
+          <div class="timeline-content">
+            <h3>SDR Spectrum Tuning & Security Manifest V3</h3>
+            <p>Designed micro-controller remote panels to ingest SDR frequencies (Radiothon RF Monitor) and implemented service workers to inspect URL metadata (PhishAlert+).</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Early 2025</div>
+          <div class="timeline-content">
+            <h3>P2P Networking & Audio Synthesis Engines</h3>
+            <p>Shipped CampusConnect V2 matching students bidirectionally. Devised ecological wave graphs synthesizing raw soundscapes locally (HydroSphere).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Pitch Section -->
+    <section id="contact" class="section contact-section">
+      <div class="contact-container">
+        
+        <!-- Left Side: Interactive Connect Panel -->
+        <div class="contact-info-panel">
+          <div class="contact-header-left">
+            <span class="status-badge">
+              <span class="status-dot"></span> Transmitting Live
+            </span>
+            <h2 class="contact-title">Let's Build Something <span class="gradient-text text-glow">Together</span></h2>
+            <p class="contact-desc-text">Have an interesting role, code prompt recommendation, or hardware hack? Drop a line or beam a signal.</p>
+          </div>
+
+          <!-- Glassmorphic Connect Cards -->
+          <div class="connect-cards-container">
+            <a href="mailto:sahu02xyz@gmail.com" class="connect-card email-card">
+              <div class="connect-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="connect-card-text">
+                <span class="connect-card-label">Email</span>
+                <span class="connect-card-val">sahu02xyz@gmail.com</span>
+              </div>
+            </a>
+            
+            <a href="https://linkedin.com/in/sahu0247" target="_blank" rel="noopener" class="connect-card linkedin-card">
+              <div class="connect-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </div>
+              <div class="connect-card-text">
+                <span class="connect-card-label">LinkedIn</span>
+                <span class="connect-card-val">in/sahu0247</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/sahu0247" target="_blank" rel="noopener" class="connect-card github-card">
+              <div class="connect-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </div>
+              <div class="connect-card-text">
+                <span class="connect-card-label">GitHub</span>
+                <span class="connect-card-val">github.com/sahu0247</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Cyber-Styled Form Panel -->
+        <div class="contact-form-panel">
+          <form id="contact-form" class="contact-form-glass">
+            <div class="form-header">
+              <h3>Secure Transmission Portal</h3>
+              <p>Fill out the fields to transmit a secure message directly to Subham's inbox.</p>
+            </div>
+            
+            <div class="form-group-dynamic">
+              <div class="input-wrapper">
+                <input type="text" id="form-name" name="name" placeholder=" " required autocomplete="off">
+                <label for="form-name">Full Name</label>
+                <div class="input-focus-line"></div>
+              </div>
+            </div>
+            
+            <div class="form-group-dynamic">
+              <div class="input-wrapper">
+                <input type="email" id="form-email" name="email" placeholder=" " required autocomplete="off">
+                <label for="form-email">Email Address</label>
+                <div class="input-focus-line"></div>
+              </div>
+            </div>
+            
+            <div class="form-group-dynamic">
+              <div class="input-wrapper">
+                <textarea id="form-message" name="message" rows="5" placeholder=" " required autocomplete="off"></textarea>
+                <label for="form-message">Message Details</label>
+                <div class="input-focus-line"></div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-submit-cyber">
+              <span class="btn-text">Transmit Signal</span>
+              <span class="btn-scanner-bar"></span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky Footer -->
+  <footer class="main-footer">
+    <p>&copy; <span id="current-year"></span> Subham Sahu. Crafted with vanilla HTML/CSS/JS.</p>
+  </footer>
+
+  <!-- MODALS CONTAINER (Hidden by Default) -->
+  <div class="modal-overlay" id="project-modal">
+    <div class="modal-box glass-modal">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
+      <div class="modal-body" id="modal-content-area">
+        <!-- Content dynamically injected here -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Alert System Notification -->
+  <div id="toast" class="toast">Message saved locally! Thanks for reaching out.</div>
+
+  <!-- JavaScript File -->
+  <script src="script.js?v=3"></script>
+</body>
+</html>
