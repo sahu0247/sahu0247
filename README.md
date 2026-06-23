@@ -29,49 +29,6 @@ I am a software engineer focused on bridging the gap between interactive web app
 
 ---
 
-### 🚀 Featured Projects
-
-#### 🚗 [SafeDrive AI](https://github.com/sahu0247/SafeDrive-AI)
-> **Your Phone Becomes Your Smartest Driving Companion.** A futuristic, Tesla-inspired AI road safety mobile web application engineered for the complexities of Indian road conditions.
-* **Tech Stack**: React 18, TypeScript, Tailwind CSS, Leaflet, Recharts, MediaPipe FaceMesh, TensorFlow.js, Web Workers, IndexedDB.
-* **Core Mechanisms**:
-  * **AI Driver Monitoring (DMS)**: Evaluates Eye Aspect Ratio (EAR) and head-nodding fatigue patterns locally in real-time.
-  * **Device Integration**: Prevents display timeouts via Screen Wake Lock and fires immediate alarms using the native Vibration & Speech APIs.
-  * **Offline Logging**: Offloads intensive GPS telemetry recording to background Web Workers writing directly to IndexedDB.
-
-#### 🌊 [HydroSphere](https://github.com/sahu0247/river_simulation-)
-> **River Basin Pollution Simulator.** An interactive, real-time environmental simulation modeling the feedback loops between industrial development, agricultural runoff, policies, and river basin ecosystems.
-* **Tech Stack**: React 19, HTML5 Canvas 2D API, Web Audio API, Recharts, Tailwind CSS, Vite.
-* **Core Mechanisms**:
-  * **Interactive Canvas**: Renders dynamic waves, sewer plume flows, and swimming fish responding to chemical and biological parameters.
-  * **Web Audio Ambience**: Generates ambient water flow noise and alerts dynamically based on Water Quality Index (WQI) scores.
-  * **Ecological Engine**: Cycles through seasonal variables and monitors Dissolved Oxygen (DO), Temperature, and pH levels.
-
-#### 📡 [Radiothon RF Monitor](https://github.com/sahu0247/radiothon_h)
-> **SDR Radio & Anomaly Warning System.** An interactive spectrum monitoring and remote control interface engineered to isolate and filter RF signal noise in real-time.
-* **Tech Stack**: Python, FastAPI, NumPy, SciPy, Pandas, Raspberry Pi / Arduino, SDR Hardware, Web Sockets.
-* **Core Mechanisms**:
-  * **DSP Noise Filtering**: Employs digital signal processing algorithms (NumPy/SciPy) to filter environmental RF interference.
-  * **Remote Tuning Panel**: Bridges web dashboard controls to physical software-defined radio (SDR) and microcontroller interfaces.
-  * **Threshold Alerts**: Triggers real-time websocket warning notifications when monitored frequency bands exceed critical noise ceilings.
-
-#### 🛡️ [InvoiceGuard AI](https://github.com/sahu0247/Invoice_Processing-Fraud_Detection)
-> **Accounts Payable Fraud Detection Agent.** An OpenEnv-compatible intelligent agent system designed for automated accounts payable processing and multi-criteria invoice fraud analysis.
-* **Tech Stack**: Python 3.8+, Streamlit, SQLite3, Faker Library, Plotly Express.
-* **Core Mechanisms**:
-  * **Agentic Loop**: Configured with a gym-style Environment (`InvoiceEnv`) tracking step state, action spaces (Approve/Flag), and reward distributions.
-  * **Synthetic Generation**: Features custom data pipelines synthesizing hundreds of clean & fraudulent invoice documents.
-  * **Interactive HUD**: Displays comparative accuracy, recall, and F1 benchmarks alongside manual file validation portals.
-
-#### ⚡ [CampusConnect V2](https://github.com/sahu0247/campus-connectV2)
-> **Student Peer-to-Peer Networking Hub.** A collaborative project matching platform, resource bank, and live peer learning exchange.
-* **Tech Stack**: React 19, Tailwind CSS, Vite, Firebase Auth, Firebase Firestore.
-* **Core Mechanisms**:
-  * **Skill Matchmaker**: Automatically computes complementary profiles using overlap availability matrices and department bonuses.
-  * **Study Hub**: Dynamic calendar slots matching Google Meet link integration, live student registrations, and direct messaging chats.
-
----
-
 ### 📊 GitHub Analytics
 
 <div align="center">
@@ -98,9 +55,9 @@ I am a software engineer focused on bridging the gap between interactive web app
 ### 🤝 Connect with Me
 
 * 📧 **Email**: [sahu02xyz@gmail.com](mailto:sahu02xyz@gmail.com)
-* 💼 **LinkedIn**: [linkedin.com/in/sahu0247](https://www.linkedin.com/in/sahu0247/) *(update with your personal handle if different)*
+* 💼 **LinkedIn**: [linkedin.com/in/subham-sahu-430814340](https://www.linkedin.com/in/subham-sahu-430814340/) 
 * 🐙 **GitHub**: [github.com/sahu0247](https://github.com/sahu0247)
 
 <div align="center">
-  <sub>Made with ❤️ using Markdown & SVG Stats widgets</sub>
+  
 </div>
