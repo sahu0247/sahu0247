@@ -108,7 +108,10 @@ const PROJECT_DETAILS = {
 document.addEventListener("DOMContentLoaded", () => {
   
   // Set Current Copyright Year
-  document.getElementById("current-year").textContent = new Date().getFullYear();
+  const currentYearEl = document.getElementById("current-year");
+  if (currentYearEl) {
+    currentYearEl.textContent = new Date().getFullYear();
+  }
 
 
 
