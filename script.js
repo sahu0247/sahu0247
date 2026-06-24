@@ -115,9 +115,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-  // 1. PROJECT CARD MOUSE GLOW EFFECT
-  const projectCards = document.querySelectorAll(".project-card");
-  projectCards.forEach(card => {
+  // 1. PROJECT & SERVICE CARD MOUSE GLOW EFFECT
+  const hoverCards = document.querySelectorAll(".project-card, .service-card");
+  hoverCards.forEach(card => {
     card.addEventListener("mousemove", e => {
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left;
@@ -276,11 +276,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const message = document.getElementById("form-message").value;
 
       const submitBtn = contactForm.querySelector('button[type="submit"]');
-      const originalBtnText = submitBtn.textContent;
+      const btnTextEl = submitBtn.querySelector('.submit-btn-text');
+      const originalBtnText = btnTextEl ? btnTextEl.textContent : submitBtn.textContent;
       
       // Update UI loading states
       submitBtn.disabled = true;
-      submitBtn.textContent = "Sending...";
+      if (btnTextEl) {
+        btnTextEl.textContent = "Sending...";
+      } else {
+        submitBtn.textContent = "Sending...";
+      }
 
       // Send via FormSubmit AJAX to user email
       fetch("https://formsubmit.co/ajax/sahu02xyz@gmail.com", {
@@ -331,7 +336,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .finally(() => {
         // Reset loading states
         submitBtn.disabled = false;
-        submitBtn.textContent = originalBtnText;
+        if (btnTextEl) {
+          btnTextEl.textContent = originalBtnText;
+        } else {
+          submitBtn.textContent = originalBtnText;
+        }
       });
     });
   }
